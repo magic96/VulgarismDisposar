@@ -6,7 +6,7 @@ export default {
   format: 'umd',
   entry: 'src/index.js',
   dest: 'dist/index.umd.js',
-  moduleName: 'test',
+  moduleName: 'VulgarismDisposar',
   plugins: [
     nodeResolve(),
     convertCJS(),
