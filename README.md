@@ -1,5 +1,7 @@
 # VulgarismDisposar
 [![Build Status](https://travis-ci.org/magic96/VulgarismDisposar.svg?branch=master)](https://travis-ci.org/magic96/VulgarismDisposar)
+
+
 Library to disposing unwanted phrases from strings.
 
 ## Usage
