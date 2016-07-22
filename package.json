@@ -1,0 +1,34 @@
+{
+  "name": "vulgarism-disposar",
+  "version": "1.0.0",
+  "description": "Library to disposing unwanted phrases from strings.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/index.umd.js",
+  "scripts": {
+    "test": "karma start config/karma/default.js",
+    "build": "rollup -c config/rollup/default.js",
+    "prebuild": "npm test",
+    "prepublish": "npm run build || exit 0"
+  },
+  "author": "magic96",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "karma": "^1.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-coverage": "^1.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-rollup-preprocessor": "^2.0.2",
+    "mocha": "^2.5.3",
+    "phantomjs": "^2.1.7",
+    "rollup": "^0.34.1",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^3.3.0",
+    "rollup-plugin-node-resolve": "^1.7.1"
+  }
+}
