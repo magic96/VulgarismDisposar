@@ -6,9 +6,7 @@
   "main": "dist/index.umd.js",
   "scripts": {
     "test": "karma start config/karma/default.js",
-    "build": "rollup -c config/rollup/default.js",
-    "prebuild": "npm test",
-    "prepublish": "npm run build || exit 0"
+    "build": "rollup -c config/rollup/default.js"
   },
   "author": "magic96",
   "license": "MIT",
