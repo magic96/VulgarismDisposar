@@ -1,5 +1,5 @@
 {
-  "name": "vulgarism-disposar",
+  "name": "vulgarism-disposer",
   "version": "1.0.0",
   "description": "Library to disposing unwanted phrases from strings.",
   "jsnext:main": "dist/index.es6.js",
@@ -12,10 +12,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic96/VulgarismDisposar"
+    "url": "git+https://github.com/magic96/VulgarismDisposer"
   },
   "bugs": {
-    "url": "https://github.com/magic96/VulgarismDisposar/issues"
+    "url": "https://github.com/magic96/VulgarismDisposer/issues"
   },
   "devDependencies": {
     "babel-polyfill": "^6.9.1",
