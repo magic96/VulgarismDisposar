@@ -109,11 +109,11 @@ describe('VulgarismDisposar#decode', () => {
     const errorData = [Error, 'Phrase must be a string.'];
     
     return Promise.all([
-      someInstance.encode(someNumber).should.be.rejectedWith(...errorData),
-      someInstance.encode(someArray).should.be.rejectedWith(...errorData),
-      someInstance.encode(someObject).should.be.rejectedWith(...errorData),
-      someInstance.encode(someBool).should.be.rejectedWith(...errorData),
-      someInstance.encode(someString).should.become(someString),
+      someInstance.decode(someNumber).should.be.rejectedWith(...errorData),
+      someInstance.decode(someArray).should.be.rejectedWith(...errorData),
+      someInstance.decode(someObject).should.be.rejectedWith(...errorData),
+      someInstance.decode(someBool).should.be.rejectedWith(...errorData),
+      someInstance.decode(someString).should.become(someString),
     ]);
   });
   
