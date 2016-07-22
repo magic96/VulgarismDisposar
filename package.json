@@ -2,11 +2,11 @@
   "name": "vulgarism-disposar",
   "version": "1.0.0",
   "description": "Library to disposing unwanted phrases from strings.",
-  "jsnext:main": "src/index.js",
+  "jsnext:main": "dist/index.es6.js",
   "main": "dist/index.umd.js",
   "scripts": {
     "test": "karma start config/karma/default.js",
-    "build": "rollup -c config/rollup/default.js"
+    "build": "rollup -c config/rollup/es6.js && rollup -c config/rollup/umd.js"
   },
   "author": "magic96",
   "license": "MIT",
