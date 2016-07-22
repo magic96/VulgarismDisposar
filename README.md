@@ -1,5 +1,8 @@
 # VulgarismDisposer
 [![Build Status](https://travis-ci.org/magic96/VulgarismDisposer.svg?branch=master)](https://travis-ci.org/magic96/VulgarismDisposer)
+[![Dependency Status](https://david-dm.org/magic96/VulgarismDisposer.svg)](https://david-dm.org/magic96/VulgarismDisposer)
+[![devDependency Status](https://david-dm.org/magic96/VulgarismDisposer/dev-status.svg)](https://david-dm.org/magic96/VulgarismDisposer#info=devDependencies)
+
 
 
 Library to disposing unwanted phrases from strings.
