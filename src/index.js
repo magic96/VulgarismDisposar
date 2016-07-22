@@ -11,7 +11,7 @@ const validateDictionary = target => {
   if (hasReservedPhrase) throw new Error('Dictionary cannot contains the reserved phrase!');
 };
 
-export default class VulgarismDisposar {
+export default class VulgarismDisposer {
   setDictionary(dictionary) {
     validateDictionary(dictionary);
     this.dictionary = dictionary;

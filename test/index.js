@@ -8,7 +8,7 @@ const someArray = [];
 const someBool = !Math.floor(Math.random() * 2);
 const someString = Math.random().toString(36).substr(2);
 
-describe('VulgarismDisposar', () => {
+describe('VulgarismDisposer', () => {
   it('should be a function', () => expect(VD).to.be.a('function'));
   
   it('calls setDictionary with first argument if passed', () => {
@@ -25,7 +25,7 @@ describe('VulgarismDisposar', () => {
   });
 });
 
-describe('VulgarismDisposar#setDictionary', () => {
+describe('VulgarismDisposer#setDictionary', () => {
   it('requires an array as argument', () => {
     const someInstance = new VD();
     const errorData = [Error, 'Dictionary must be an array!'];
@@ -59,7 +59,7 @@ describe('VulgarismDisposar#setDictionary', () => {
   });
 });
 
-describe('VulgarismDisposar#encode', () => {
+describe('VulgarismDisposer#encode', () => {
   const someDictionary = ['usun', 'konto', 'mireczku'];
   const someInstance = new VD(someDictionary);
   
@@ -97,7 +97,7 @@ describe('VulgarismDisposar#encode', () => {
   });
 });
 
-describe('VulgarismDisposar#decode', () => {
+describe('VulgarismDisposer#decode', () => {
   const someDictionary = ['usun', 'konto', 'mireczku'];
   const someInstance = new VD(someDictionary);
   
