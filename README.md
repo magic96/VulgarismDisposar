@@ -1,5 +1,6 @@
 # VulgarismDisposer
 [![Build Status](https://travis-ci.org/magic96/VulgarismDisposer.svg?branch=master)](https://travis-ci.org/magic96/VulgarismDisposer)
+[![codecov](https://codecov.io/gh/magic96/VulgarismDisposer/branch/master/graph/badge.svg)](https://codecov.io/gh/magic96/VulgarismDisposer)
 [![Dependency Status](https://david-dm.org/magic96/VulgarismDisposer.svg)](https://david-dm.org/magic96/VulgarismDisposer)
 [![devDependency Status](https://david-dm.org/magic96/VulgarismDisposer/dev-status.svg)](https://david-dm.org/magic96/VulgarismDisposer#info=devDependencies)
 
