@@ -8,6 +8,12 @@
 
 Library to disposing unwanted phrases from strings.
 
+## Installation
+
+```bash
+npm install vulgarism-disposer [--save]
+```
+
 ## Usage
 ```js
 import { default as VulgarismDisposer } from 'vulgarism-disposer';
