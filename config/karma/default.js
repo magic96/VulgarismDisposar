@@ -80,7 +80,7 @@ module.exports = function(config) {
           babel({ presets: ['es2015-rollup'] })
         ]
       },
-      bundle: { format: 'iife' }
+      format: 'iife'
     },
     
     coverageReporter: {
